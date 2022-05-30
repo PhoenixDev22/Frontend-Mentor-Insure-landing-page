@@ -8,7 +8,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
@@ -18,7 +17,7 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 ## Overview
 
 ### The challenge
-
+In this challenge , I have changed the text color in We're differnt section ".features__para"
 
 ### Screenshot
 
@@ -27,10 +26,9 @@ I haven't provide the mobile screenshot as it's longer than the desktop.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/PhoenixDev22/Frontend-Mentor-Insure-landing-page)
+- Live Site URL: [live site URL here](https://insure-landing-page-phoenixdev22.netlify.app/)
 
-## My process
 
 
 ### Built with
@@ -46,6 +44,7 @@ I haven't provide the mobile screenshot as it's longer than the desktop.
 ### What I learned
 Use the built-in screen reader
 Chromebooks have a built-in screen reader called ChromeVox, which enables people with visual impairments to use the Chrome operating system.
+- Using Autoprefixer tool for handling vendor prefixes in CSS. As I used to write vendor prefixes by hands , it was totally tedious and error prone
 
 ### Continued development
 
@@ -55,10 +54,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/) - this is an amazing source , it provides a complete explanation about WAI-ARIA Roles.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this.
+- [kevin Powell](https://www.bing.com/videos/search?q=adding+skip+navigation+kevin+poweelll&&view=detail&mid=10A1D5B7F1984D59CBA310A1D5B7F1984D59CBA3&&FORM=VRDGAR)
 
 ## Author
-
+- Website - I haven't made my profile portfolio yet. 
 - Frontend Mentor - [@PhoenixDev22](https://www.frontendmentor.io/profile/PhoenixDev22)
+- Github  - [PhoenixDev22](https://github.com/PhoenixDev22?tab=repositories)
 
 
