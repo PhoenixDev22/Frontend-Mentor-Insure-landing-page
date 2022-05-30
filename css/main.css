@@ -25,6 +25,9 @@
     --fs-400: 400;
     --fs-700: 700;
 }
+html{
+    scroll-behavior: smooth;
+}
 ul{
     list-style: none;
 }
@@ -88,6 +91,18 @@ header{
     position: relative;
     background-color: #fff;
     z-index: 10;
+}
+.skip-nav{
+    position: absolute;
+    left: 1rem;
+    background-color: var(--Dark-Violet);
+    color: var(--Very-Light-Gray);
+    padding: .6rem 1.3rem;
+    transform: translateY(-120%);
+    transition: .4s ease-in         
+}
+.skip-nav:focus{
+    transform: translateY(0);
 }
 /* Start Nav Rules */
 .nav {
@@ -546,7 +561,7 @@ header{
     color:hsl(189, 82%, 38%)
 }
 a:focus, a:focus-visible{
-    outline: .1em dashed red
+    outline: .2em dashed red
 }
 /* media query for screens greater than 650px */
 @media screen and (min-width: 48em){
@@ -807,24 +822,39 @@ a:focus, a:focus-visible{
     }
 }
 @media screen and (min-width: 62em){
-    .col-3{
-        width: 30%;
-        text-align: left;
+    .hero__title{
+        font-size: 4rem;
+        font-weight: var(--fs-700);
     }
     .hero__image img {
         height: 40rem;
         margin-bottom: -16.375rem;
+    }
+    .col-3{
+        width: 30%;
+        text-align: left;
     }
     .features .flex {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
     }
+    .features__title{
+        font-size: 4rem;
+    }
+    .features__sub-title{
+        font-size: 1.75rem;
+        font-weight: var(--fs-700);
+    }
     .work .container{
         padding: 4.1rem 5rem;
     }
     .work__title{
         font-size: 3.3rem;
+    }
+    footer .col-4{
+        max-width: 250px;
+        width: 100%;
     }
     .social__links .fa-brands{
         font-size: 1.5rem
