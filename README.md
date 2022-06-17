@@ -42,8 +42,6 @@ I haven't provide the mobile screenshot as it's longer than the desktop.
 
 
 ### What I learned
-Use the built-in screen reader
-Chromebooks have a built-in screen reader called ChromeVox, which enables people with visual impairments to use the Chrome operating system.
+- Use the built-in screen reader called ChromeVox, which enables people with visual impairments to use the Chrome operating system.
 - Using Autoprefixer tool for handling vendor prefixes in CSS. As I used to write vendor prefixes by hands , it was totally tedious and error prone
 
-### Continued development
